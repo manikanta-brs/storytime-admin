@@ -1,0 +1,40 @@
+{
+  "name": "storytime",
+  "version": "1.0.0",
+  "description": "storytime podcast",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "create-admin": "node createAdmin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.18.0",
+    "formidable": "^3.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.11",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "react-toastify": "^11.0.3",
+    "spotify-web-api-node": "^5.0.2",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
